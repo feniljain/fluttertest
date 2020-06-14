@@ -8,7 +8,7 @@ As my love grew for VIM, there were some setbacks which I experienced while usin
 
 This tool helps with just that, just pass in the fileName with file command and you get a list of groups, you can select the group you want and the rest will be handled by the tool.
 
-## USAGE
+## Usage
 ```bash
 Usage:
   fluttertest [flags]
@@ -22,11 +22,11 @@ Flags:
   -h, --help   help for fluttertest
 ```
 
-## CONTRIBUTION
+## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what would like to change.
 
-## FEATURE REQUESTS
+## Feature Requests
 For feature requests one can open an issue and add label "new-feature"
 
-## LICENSE
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
