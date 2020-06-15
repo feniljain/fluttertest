@@ -13,7 +13,7 @@ var fileCmd = &cobra.Command{
 		fileName := args[0]
 		err := parser.Parse(fileName)
 		if err != nil {
-			//fmt.Println(err)
+			fmt.Println(err)
 			fmt.Println("Some error occurred!")
 		}
 	},

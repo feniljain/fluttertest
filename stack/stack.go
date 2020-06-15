@@ -50,6 +50,9 @@ func (st *Stack) Pop() (string, error) {
 }
 
 //TopElement returns the top element of the stack
-func (st *Stack) TopElement() string {
-	return st.stack[st.Top]
+func (st *Stack) TopElement() (string, error) {
+	if st.Top == -1 {
+		return "", &UnderFlowError{}
+	}
+	return st.stack[st.Top], nil
 }

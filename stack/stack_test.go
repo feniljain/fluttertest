@@ -48,7 +48,7 @@ func TestPopStack(t *testing.T) {
 func TestTopElement(t *testing.T) {
 	s := Init()
 	s.Push("(")
-	str := s.TopElement()
+	str, _ := s.TopElement()
 	if str != "(" {
 		t.Error("Expected ( to be the top element but got:", str)
 	}
